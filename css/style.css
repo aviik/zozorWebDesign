@@ -1,0 +1,256 @@
+/*@font-face {
+  font-family: 'dayrom';
+  src:  url('../fonts/myfont.woff2') format('woff2'),
+        url('../fonts/dayrom.woff') format('woff');
+}*/
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('../fonts/ballpark.eot');
+    src: url('../fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ballpark.woff') format('woff'),
+         url('../fonts/ballpark.ttf') format('truetype'),
+         url('../fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../fonts/dayrom.eot');
+    src: url('../fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dayrom.woff') format('woff'),
+         url('../fonts/dayrom.ttf') format('truetype'),
+         url('../fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+   font: 15px arial, sans-serif;
+   color: #000000;
+   line-height: 1.5;
+   background-image: url("../img/yellow_background.png");
+   background-repeat: repeat;
+   background-position: center;
+   background-attachment: fixed;
+   padding: 0;
+   margin: 0;
+
+}
+.container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+/* header stuffs */
+header{
+  margin: 0;
+  padding: 0;
+}
+h2 p{
+  font-family: 'Dayrom', serif;
+}
+header h1{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    /*font-weight: normal;*/
+}
+header p, li{
+  font-family: 'Dayrom', serif;
+  font-weight: normal;
+  }
+#logo, header h1{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+header li{
+  list-style-type: none;
+  display: inline-block;
+  font-size: 17px;
+  padding: 60px 0 0 10px ;
+  font-weight:200;
+}
+#logo p{
+  margin: 0;
+  padding: 0;
+}
+.banner, nav{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.banner{
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/line.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  display: block;
+}
+
+
+.sanfranImg{
+  border-radius: 5px;
+  background-image: url("../img/sanfrancisco.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 219px;
+  box-shadow: 0px 4px 4px #1c1a19;
+  position: relative;
+}
+.darkArea p,a{
+  display: inline-block;
+}
+.darkArea a{
+  float: right;
+  text-decoration: none;
+  color: #FFFF;
+  background:linear-gradient( #d87070, #830606);
+  border-radius: 2.5px;
+  padding: 0 10px 0 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.upperBlankArea{
+  width: 100%;
+  height: 77%;
+}
+.darkArea{
+  background-color: #000000;
+  border-radius: 0 0 5px 5px;
+  color: #FFFF;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+  bottom: 0;
+  position: relative;
+}
+/*centre area*/
+
+
+.content img, h2{
+  display: inline-block;
+  padding-top: 50px;
+}
+.content h2,p, footer h2{
+  font-family: 'Dayrom', serif;
+}
+
+.content h2{
+  padding-left: 20px;
+  margin-bottom: : 10px;
+}
+
+.content,.aboutShoutBox{
+  display: inline-block;
+  /*color: #ffff;*/
+}
+.content{
+  float: left;
+  width: 74%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.arrowArea , #authorWords{
+  display: inline-block;
+}
+.arrowArea{
+  float: right;
+  margin-top: 60px;
+}
+
+#authorWords{
+  background: #707055;
+  text-align: left;
+  width: 22%;
+  float: right;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #1c1a19;
+  padding: 15px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#authorWords .dp{
+  border: solid 2px black;
+  margin-left: 50px;
+}
+#authorWords li{
+  display: inline;
+  list-style-type: none;
+}
+
+#aboutShoutBox{
+  padding-top: 30px;
+  color: #ffffff;
+}
+.bottomBorder{
+  background-image: url("../img/line.png");
+  background-position: top;
+  background-repeat: repeat-x;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  /*position: relative;*/
+}
+.bottomBorder img{
+  /*padding-top: 20px;*/
+  position: relative;
+  /*margin-top: 30px;*/
+}
+.centerArea{
+  display: inline-block;
+}
+/*footer{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100px;
+}*/
+.tweets, .myPictures, .myFriends{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.myPictures{
+  text-align: left;
+}
+.myPictures ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.myPictures li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.myFriends{
+  overflow-y: hidden;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.myFriends ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
